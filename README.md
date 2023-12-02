@@ -44,12 +44,12 @@
   
 * 팀원 역할
   - 공통:  웹사이트 UI 기획, ERD 설계
-  - 신민하: 총괄 및 조장, ppt준비, 정보 수집
-  - 신수인: 공지사항 및 게시판 CRUD,
+  - 신민하: 총괄 및 조장, ppt준비, 사원메뉴 데이터 조회기능 구현
+  - 신수인: 공지사항 및 게시판 CRUD
   - 임지선: 웹사이트 UI설계,  반응형 웹 메뉴바 구현
   - 이도민: 관리자, 사원 홈페이지 조회 기능 중 검색창 구현, 사원메뉴 전체 조회와 조인한 테이블 정보 기능 구현
   - 심기훈: 로그인 UI 폼 구현
-  - 김보성: 코드 유지보수
+  - 김보성: 로그인 UI 폼 구현, 코드 유지보수
   - 박다진솔: 업무 조회 구현(조인 관련 기능)
 
 * 구현 기능
@@ -119,3 +119,28 @@
   - 해당 업무 데이터를 입력 후 조회버튼을 누르면 특정 데이터 화면에 출력
   - 사원 업무 관리 메뉴바 중 사원업무 등록 클릭시 사원 업무를 등록할 수 있는 해당 링크로 이동되어 폼 출력.
   - job_title을 클릭하면 최소 월급이 얼마인지 확인이 가능하고 수정버튼을 누르면 수정이 가능하도록 구현.
+
+## 관리자용 부서관리(등록, 조회, 수정)
+![image](https://github.com/brandmin/HRproject/assets/82518048/3edbbb1d-01c6-4407-ae65-6cb946f0c57f)
+![image](https://github.com/brandmin/HRproject/assets/82518048/840273f6-b27e-4845-ac4f-12fcfc817587)
+![image](https://github.com/brandmin/HRproject/assets/82518048/81e7c180-b2b1-4a5f-b753-5245cabb8101)
+
+* 설명
+  - 해당 부서 데이터를 등록하면 부서 정보 데이터가 화면에 출력이 되고 부서ID를 검색하면 해당 데이터가 출력
+  - 수정 버튼을 누르면 부서 담당매니저 ID를 수정할 수 있게 활성화함.
+
+## 사원용 사원관리(사원 조회, 직원 및 부서 정보 조회)
+![image](https://github.com/brandmin/HRproject/assets/82518048/1ef5e606-469f-4dfd-8905-0ecd50031c68)
+![image](https://github.com/brandmin/HRproject/assets/82518048/bd893cce-25e1-4d80-bcc7-8b9aeb56dea2)
+![image](https://github.com/brandmin/HRproject/assets/82518048/bff1e96d-4ab4-4719-aa87-377410562ea8)
+![image](https://github.com/brandmin/HRproject/assets/82518048/7c49f912-a7b3-472d-9da9-11b09919dd8f)
+![image](https://github.com/brandmin/HRproject/assets/82518048/348bc856-d4d9-484d-af18-3469825a7ed2)
+![image](https://github.com/brandmin/HRproject/assets/82518048/7b0f7471-afe3-4fd4-afef-52a961f9690e)
+![image](https://github.com/brandmin/HRproject/assets/82518048/69587ee3-8bca-43f5-a405-66ed66729cf6)
+
+* 설명
+  - 사원은 해당 사번을 입력하면 사원의 데이터가 출력.
+  - 사원은 조회만 가능.
+  - 메인 홈페이지로 이동 하이퍼링크를 설정하여 해당 링크로 이동하게 구현.
+  - 사원 업무관리에서 job_id를 입력 후 검색하면 해당 데이터 화면에 출력
+  - 부서관리에서 department_id를 입력하면 해당 데이터 화면에 출력
