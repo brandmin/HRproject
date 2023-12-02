@@ -59,6 +59,7 @@
   - 사원 기능(사원관리, 부서관리, 업무관리) Read
 
  * DB ERD 설계
+![image](https://github.com/brandmin/HRproject/assets/82518048/98e49363-37c6-4e54-96c6-b16e7d2e9ff5)
 
    
 # 📝 구현 기능
