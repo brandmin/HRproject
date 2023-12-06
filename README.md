@@ -10,7 +10,7 @@
     <li>
       <a href="#내용">내용</a>
     </li>
-    <li><a href="#구현-기능">구현 기능</a>
+    <li><a href="#구현기능">구현 기능</a>
       <ul>
         <li><a href="#notice">공지사항 게시판</a></li>
         <li><a href="#member">관리자 - 사원관리</a></li>
@@ -62,7 +62,7 @@
 ![image](https://github.com/brandmin/HRproject/assets/82518048/98e49363-37c6-4e54-96c6-b16e7d2e9ff5)
 
 ----------   
-# 📝 구현 기능
+# 📝 구현기능
 
 ## 로그인 UI, 로그인 실패했을 때
 ![image](https://github.com/brandmin/HRproject/assets/82518048/c0abcae2-f6c3-4b14-8446-1ac351c617d9)
