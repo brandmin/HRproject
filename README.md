@@ -10,7 +10,7 @@
     <li>
       <a href="#내용">내용</a>
     </li>
-    <li><a href="#구현기능">구현 기능</a>
+    <li><a href="#구현기능">구현기능</a>
       <ul>
         <li><a href="#notice">공지사항 게시판</a></li>
         <li><a href="#member">관리자 - 사원관리</a></li>
