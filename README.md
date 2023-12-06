@@ -39,7 +39,7 @@
   - Database: Oracle SQL developer
   - Language: Java, jsp/Servlet, HTML, CSS, JavaScript, SQL
   - Framework: Spring Tool suite 3.9.1
-  ----------
+----------
   # 📝내용
   
 * 팀원 역할
@@ -61,7 +61,7 @@
  * DB ERD 설계
 ![image](https://github.com/brandmin/HRproject/assets/82518048/98e49363-37c6-4e54-96c6-b16e7d2e9ff5)
 
-   
+----------   
 # 📝 구현 기능
 
 ## 로그인 UI, 로그인 실패했을 때
